@@ -15,9 +15,9 @@ https://github.com/homanfag/Circle-Gun/assets/140942892/0c91e773-3ba7-4c89-b394-
 ## Features
 
 - Simple gameplay
-- Eating apples
 - The player moves around the screen one unit every FixedUpdate.
-- Aim and rotate player with mouse position on screen.
+- The snake can eat apples, and when it does, the apple will spawn in another position(pooling).
+- The apple script will check if it is on the player's body parts; if so, it will immediately spawn in another position.
 - The camera shakes, the background color changes, and sound effects play when the snake eats an apple or the game is over.
 
 ## How to Play
