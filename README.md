@@ -6,7 +6,7 @@
 
 
 
-https://github.com/homanfag/Circle-Gun/assets/140942892/0c91e773-3ba7-4c89-b394-c326fac316c4
+https://github.com/homanfag/Juicy_Snake/assets/140942892/cd811c48-1d99-49b5-adcb-837e3471e0cf
 
 
 
