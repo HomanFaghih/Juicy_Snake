@@ -1,7 +1,7 @@
 # Juicy_Snake
 
 ## Description
-**Juicy snake** used to be a simple classic snake game that I created in Unity just to practice C#. After watching "[juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)" and "[The art of screenshake](https://youtu.be/AJdEqssNZ-U?si=aoTaZvNE6rFdv6ek)" I decided to juice my snake game!
+**Juicy snake** used to be a simple classic snake game that I created in Unity just to practice C#. After watching "[juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg)" and "[The art of screenshake](https://youtu.be/AJdEqssNZ-U?si=aoTaZvNE6rFdv6ek)" I decided to juice my snake game!:tropical_drink:	
 
 
 
