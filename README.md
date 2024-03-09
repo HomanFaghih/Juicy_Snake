@@ -22,16 +22,14 @@ https://github.com/homanfag/Circle-Gun/assets/140942892/0c91e773-3ba7-4c89-b394-
 
 ## How to Play
 
-1. Use the arrow keys or WASD keys to move the circle.
-2. Right click to shoot the bullets.
-3. Avoid collision with boxes.
-4. Try to shoot as many boxes as possible.
+1. Use the arrow keys or WASD keys to move the snake.
+2. Just eat apples and avoid from walls and yourselfe!
 
 ## Installation
 
 To run the project locally, follow these steps:
 
-1. Clone the [repository](https://github.com/homanfag/Circle-Gun/)
+1. Clone the [repository](https://github.com/homanfag/Juicy_snake/)
 
 2. Open the project in Unity by following these steps:
    - Launch Unity Hub.
