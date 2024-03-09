@@ -15,10 +15,10 @@ https://github.com/homanfag/Circle-Gun/assets/140942892/0c91e773-3ba7-4c89-b394-
 ## Features
 
 - Simple gameplay
-- Shooting mechanic
-- Move the player around the screen
-- Aim and rotate player with mouse position on screen
-- Camera shake effect when an enemy is killed
+- Eating apples
+- The player moves around the screen one unit every FixedUpdate.
+- Aim and rotate player with mouse position on screen.
+- The camera shakes, the background color changes, and sound effects play when the snake eats an apple or the game is over.
 
 ## How to Play
 
