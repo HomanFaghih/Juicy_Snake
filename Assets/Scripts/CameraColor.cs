@@ -4,31 +4,34 @@ using UnityEngine;
 
 public class CameraColor : MonoBehaviour
 {
-    private Camera camera;
-    float timer;
+    private Camera cameraMain;
+    float timer; 
     float currentTime;
     [SerializeField]
     Color newColor;
+
     // Start is called before the first frame update
     void Awake()
     {
-        camera = GetComponent<Camera>();
+        cameraMain = GetComponent<Camera>();
     }
 
-    public void ChangeBackCamColor(float time)
+    public void ChangeBackCamColor(float time, Color32 color)
     {
-        //camera.backgroundColor = color;
+        cameraMain.backgroundColor = color;
+        newColor = color;
         timer = time;
         currentTime = 0;
     }
 
-    private void Update() {
+    private void Update() 
+    {
         if(timer > 0)
         {
             currentTime += Time.deltaTime;
-            float timeToComplete = currentTime / timer;
+            float timeToComplete = currentTime / timer; 
 
-            camera.backgroundColor = Color.Lerp(newColor, Color.black, timeToComplete);
+            cameraMain.backgroundColor = Color.Lerp(newColor, Color.black, timeToComplete);
         }
     }
 

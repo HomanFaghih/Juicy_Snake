@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class Apple : MonoBehaviour
 {
-    GameManager gameManager;
     public bool appleIsOnBody;
-    void Awake()
-    {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-    }
 
-
+    //Avoid spawning on the snake's body
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Body"))
+        if(other.CompareTag("Body")) 
         {
             gameObject.SetActive(false);
             appleIsOnBody = true;

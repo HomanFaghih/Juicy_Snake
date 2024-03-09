@@ -18,12 +18,6 @@ public class SpawnManager : MonoBehaviour
         cameraColor = Camera.main.GetComponent<CameraColor>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void SpawnApple()
     {
         GameManager.Instance.ResetUIScore();
@@ -38,7 +32,7 @@ public class SpawnManager : MonoBehaviour
         eatParticle.SetActive(false);
         eatParticle.SetActive(true);
         eatParticle.transform.position = spawnPosition;
-        CameraShake.Instance.ShakeCamera(6, 0.5f);
-        cameraColor.ChangeBackCamColor(1);
+        CameraShake.Instance.ShakeCamera(6, 0.5f); //every time a particle spawns(snake eat an apple) camera will shake.
+        cameraColor.ChangeBackCamColor(1, new Color32(185, 171, 0, 0));
     }
 }

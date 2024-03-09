@@ -40,7 +40,7 @@ public class CameraShake : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             float percentageComplete = currentTime / timer;
-            cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = Mathf.Lerp(startingIntensity, 0f, shakeSpeedCurve.Evaluate(percentageComplete));
+            cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = Mathf.Lerp(startingIntensity, 0f, shakeSpeedCurve.Evaluate(percentageComplete)); //easeout change the Instensity from startingInstensity to zero.
         }
     }
 }

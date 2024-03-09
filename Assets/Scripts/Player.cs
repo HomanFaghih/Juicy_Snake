@@ -16,13 +16,7 @@ public class Player : MonoBehaviour
     }
 
     private void Start() {
-        bodyParts.Add(transform);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        bodyParts.Add(transform); //add head transform to list
     }
 
     private void OnTriggerEnter2D(Collider2D other) {

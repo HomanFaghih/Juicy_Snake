@@ -5697,7 +5697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d144a25c26145248a1a3b1a8de2f8d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newColor: {r: 0.7264151, g: 0.6722901, b: 0, a: 1}
+  newColor: {r: 0.7264151, g: 0.67058825, b: 0, a: 0}
 --- !u!1001 &744456605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7373,7 +7373,6 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   gameOverAudioClip: {fileID: 8300000, guid: 831a206310216fa4786df4062604eaae, type: 3}
   isGameOver: 0
-  isGamePause: 0
   score: 0
 --- !u!4 &1987427254
 Transform:
